@@ -171,7 +171,7 @@ const router = createBrowserRouter([
           </AdminRoute>
         ),
         loader: ({ params }) =>
-          fetch(`${VITE_SERVER}item/${params.id}`),
+          fetch(`${VITE_SERVER}api/products/${params.id}`),
       },
     ],
   },
