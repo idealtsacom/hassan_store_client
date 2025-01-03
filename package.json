@@ -1,0 +1,46 @@
+{
+  "name": "hassan-store-v-1",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "proxy": "https://hassan-store-server-v-1.vercel.app/",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "*",
+    "@tanstack/react-query": "*",
+    "axios": "*",
+    "firebase": "*",
+    "localforage": "*",
+    "lodash": "*",
+    "match-sorter": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-icons": "*",
+    "react-router-dom": "*",
+    "sort-by": "*",
+    "sweetalert2": "*",
+    "swiper": "*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@vitejs/plugin-react": "*",
+    "autoprefixer": "*",
+    "daisyui": "*",
+    "eslint": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*",
+    "eslint-plugin-react-refresh": "*",
+    "postcss": "*",
+    "tailwindcss": "*",
+    "vite": "*"
+  }
+}

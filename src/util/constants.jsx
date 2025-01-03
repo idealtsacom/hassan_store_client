@@ -1,0 +1,1 @@
+export const VITE_SERVER=`https://hassan-store-server-v-0.vercel.app/`
