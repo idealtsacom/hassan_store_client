@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "proxy": "https://hassan-store-server-v-1.vercel.app/",
+  "proxy": "https://hassan-store-server-v-0.vercel.app/",
   "engines": {
     "node": "*"
   },
